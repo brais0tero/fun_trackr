@@ -8,7 +8,7 @@ export default function InfoPage() {
   if (!ready) return <p className="p-8 text-center">Cargando traducciones...</p>;
 
   return (
-    <main className="max-w-3xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8 min-h-screen">
       <h1 className="text-2xl font-bold mb-4">{t('info')}</h1>
       <p className="mb-2">{t('technologies_intro')}</p>
       <ul className="list-disc pl-6 space-y-1">
@@ -35,6 +35,16 @@ export default function InfoPage() {
             ),
           }}
         />
+      </p>
+      <p className="mt-2 text-sm text-left">
+        © <a
+          href="https://github.com/brais0tero"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline text-blue-600"
+        >
+          Brais Otero Simón
+        </a>
       </p>
     </main>
   );

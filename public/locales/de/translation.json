@@ -5,6 +5,7 @@
   "loading": "Lädt...",
   "language": "Sprache",
   "info": "Informationen",
+  "error_loading_parks": "Fehler beim Laden der Parks.",
   "technologies_intro": "Dieses Projekt wurde mit den folgenden Technologien entwickelt:",
   "technologies_list": {
     "next": "Next.js 14 (App Router)",

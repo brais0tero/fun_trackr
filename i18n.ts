@@ -17,7 +17,4 @@ i18n
       loadPath: '/locales/{{lng}}/translation.json',
     },
   });
-
-  i18n.changeLanguage('es'); // forzar idioma temporalmente
-
 export default i18n;

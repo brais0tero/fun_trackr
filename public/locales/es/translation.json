@@ -16,5 +16,6 @@
     "recharts": "Recharts para visualización de datos",
     "queue_times": "API de Queue-Times para información de parques"
   },
-  "powered_by": "Desarrollado con el apoyo de <1>Queue-Times.com</1>."
+  "powered_by": "Desarrollado con el apoyo de <1>Queue-Times.com</1>.",
+  "error_loading_parks": "Hubo un error al cargar los parques."
 }

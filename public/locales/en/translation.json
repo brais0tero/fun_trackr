@@ -16,5 +16,6 @@
     "recharts": "Recharts for data visualization",
     "queue_times": "Queue-Times API for theme park data"
   },
-  "powered_by": "Powered by <1>Queue-Times.com</1>. Please consider sponsoring them on Patreon."
+  "powered_by": "Powered by <1>Queue-Times.com</1>. Please consider sponsoring them on Patreon.",
+  "error_loading_parks": "There was an error loading the parks."
 }
