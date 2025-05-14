@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { ParkGroup } from '@/types/queue_times_types';
 import { useParkStore } from '@/stores/useParkStore';
 import { useRouter } from 'next/navigation';
-
 interface Props {
   group: ParkGroup;
 }

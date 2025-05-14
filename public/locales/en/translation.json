@@ -33,6 +33,8 @@
     "attendance": {
       "year": "Year",
       "attendance": "Attendance"
-    }
+    },
+    "general_rides": "Available Attractions",
+    "no_rides_available": "No attractions available in this park."
   }
 }

@@ -1,11 +1,19 @@
 'use client';
+export const dynamic = 'force-dynamic';
 import React from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 
 export default function InfoPage() {
   const { t, ready } = useTranslation();
 
-  if (!ready) return <p className="p-8 text-center">Cargando traducciones...</p>;
+  if (!ready)
+    return (
+      <main className="min-h-screen flex items-center justify-center">
+        <span className="animate-pulse text-lg text-brand-dark">
+            ⏳
+        </span>
+      </main>
+    );
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-8 min-h-screen">

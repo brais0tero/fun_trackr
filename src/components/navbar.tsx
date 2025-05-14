@@ -5,10 +5,12 @@ import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useEffect, useState } from 'react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
   const [mounted, setMounted] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     if (i18n.isInitialized) {
@@ -25,7 +27,23 @@ export default function Navbar() {
           <div className="flex-shrink-0 text-xl font-semibold text-brand-dark">
             <Link href="/">{t('title')}</Link>
           </div>
-          <div className="flex space-x-6 items-center">
+
+          {/* Mobile menu button */}
+          <div className="flex md:hidden">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="text-brand-dark hover:text-brand focus:outline-none"
+            >
+              {menuOpen ? (
+                <XMarkIcon className="h-6 w-6" />
+              ) : (
+                <Bars3Icon className="h-6 w-6" />
+              )}
+            </button>
+          </div>
+
+          {/* Desktop menu */}
+          <div className="hidden md:flex space-x-6 items-center">
             <Link
               href="/"
               className="text-brand-dark hover:text-brand hover:scale-110 transition-all ease-in duration-100"
@@ -41,6 +59,29 @@ export default function Navbar() {
             <LanguageSwitcher />
           </div>
         </div>
+
+        {/* Mobile menu dropdown */}
+        {menuOpen && (
+          <div className="md:hidden flex flex-col space-y-4 py-4">
+            <Link
+              href="/"
+              className="text-brand-dark px-2"
+              onClick={() => setMenuOpen(false)}
+            >
+              {t('park_list')}
+            </Link>
+            <Link
+              href="/info"
+              className="text-brand-dark px-2"
+              onClick={() => setMenuOpen(false)}
+            >
+              {t('info')}
+            </Link>
+            <div className="px-2">
+              <LanguageSwitcher />
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );

@@ -1,4 +1,5 @@
 'use client';
+export const dynamic = 'force-dynamic';
 import { useTranslation } from 'react-i18next';
 import { useParks } from '@/hooks/queue_times_hooks';
 import GroupPark from '@/components/GroupPark';
