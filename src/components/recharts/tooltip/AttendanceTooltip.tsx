@@ -21,7 +21,6 @@ export default function AttendanceTooltip({
         <p>
           {t('park_detail.attendance')}: {(value / 1_000_000).toFixed(1)}M
         </p>
-        <p>ESTO NO ESTÁ FUNCIONANDO GPT</p>
       </div>
     );
   }
