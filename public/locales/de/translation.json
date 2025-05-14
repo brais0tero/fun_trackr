@@ -1,0 +1,20 @@
+{
+  "title": "Freizeitpark-Explorer",
+  "welcome": "Willkommen bei FunTrackr!",
+  "park_list": "Liste der Parks",
+  "loading": "Lädt...",
+  "language": "Sprache",
+  "info": "Informationen",
+  "technologies_intro": "Dieses Projekt wurde mit den folgenden Technologien entwickelt:",
+  "technologies_list": {
+    "next": "Next.js 14 (App Router)",
+    "react": "React 18",
+    "typescript": "TypeScript",
+    "tailwind": "TailwindCSS",
+    "i18next": "i18next zur Internationalisierung",
+    "swr": "SWR für reaktives Daten-Fetching",
+    "recharts": "Recharts zur Datenvisualisierung",
+    "queue_times": "Queue-Times API für Freizeitparkdaten"
+  },
+  "powered_by": "Bereitgestellt von <1>Queue-Times.com</1>. Bitte unterstütze das Projekt auf Patreon."
+}

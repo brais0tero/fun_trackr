@@ -1,0 +1,20 @@
+{
+  "title": "Explorador de Parques Temáticos",
+  "welcome": "¡Bienvenido a FunTrackr!",
+  "park_list": "Lista de Parques",
+  "loading": "Cargando...",
+  "language": "Idioma",
+  "info": "Información",
+  "technologies_intro": "Este proyecto ha sido desarrollado usando las siguientes tecnologías:",
+  "technologies_list": {
+    "next": "Next.js 14 (App Router)",
+    "react": "React 18",
+    "typescript": "TypeScript",
+    "tailwind": "TailwindCSS",
+    "i18next": "i18next para internacionalización",
+    "swr": "SWR para fetching reactivo",
+    "recharts": "Recharts para visualización de datos",
+    "queue_times": "API de Queue-Times para información de parques"
+  },
+  "powered_by": "Desarrollado con el apoyo de <1>Queue-Times.com</1>."
+}
