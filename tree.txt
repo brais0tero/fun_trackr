@@ -1,0 +1,56 @@
+.
+├── eslint.config.mjs
+├── fun_trackr_workspace.code-workspace
+├── i18n.ts
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── assets
+│   │   └── fun_trackr.svg
+│   └── locales
+│       ├── de
+│       │   └── translation.json
+│       ├── en
+│       │   └── translation.json
+│       └── es
+│           └── translation.json
+├── README.md
+├── src
+│   ├── app
+│   │   ├── api
+│   │   │   └── parks
+│   │   │       └── route.ts
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── info
+│   │   │   └── page.tsx
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── park
+│   │       └── [park_id]
+│   │           └── page.tsx
+│   ├── components
+│   │   ├── GroupPark.tsx
+│   │   ├── LanguageSwitcher.tsx
+│   │   ├── navbar.tsx
+│   │   ├── park
+│   │   │   ├── LandSelector.tsx
+│   │   │   └── RideCard.tsx
+│   │   └── recharts
+│   │       └── tooltip
+│   │           └── AttendanceTooltip.tsx
+│   ├── fetchers
+│   │   └── queque_times_fetcher.ts
+│   ├── hooks
+│   │   └── queue_times_hooks.ts
+│   ├── stores
+│   │   └── useParkStore.ts
+│   └── types
+│       └── queue_times_types.ts
+├── tree.txt
+└── tsconfig.json
+
+22 directories, 32 files

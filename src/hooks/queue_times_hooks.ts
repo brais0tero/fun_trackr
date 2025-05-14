@@ -1,5 +1,5 @@
 import useSWR from 'swr';
-import { fetchParks, fetchParkQueueTimes, fetchParkAttendance } from '@/fetchers/queque_times_fetcher';
+import { fetchParks, fetchParkQueueTimes, fetchParkAttendance } from '@/fetchers/queue_times_fetcher.ts';
 import { ParkGroup, ParkQueueTimesResponse, AttendanceByYear } from '@/types/queue_times_types';
 
 export function useParks(shouldFetch: boolean = true) {

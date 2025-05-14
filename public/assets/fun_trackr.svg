@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.47345,0,0,1.20852,-391.267,-69.7818)">
+        <ellipse cx="611.323" cy="481.15" rx="213.443" ry="258.12" style="fill:rgb(217,240,255);"/>
+    </g>
+    <g id="montaña-rusa" serif:id="montaña rusa" transform="matrix(1.15799,0,0,1.15799,-43.9697,-112.761)">
+        <path d="M364.032,688.64L364.442,718.014" style="fill:none;stroke:rgb(21,46,105);stroke-width:14.68px;"/>
+        <path d="M447.451,712.824L446.982,686.808" style="fill:none;stroke:rgb(21,46,105);stroke-width:14.68px;"/>
+        <path d="M517.267,637.409L518.355,716.412" style="fill:none;stroke:rgb(21,46,105);stroke-width:14.68px;"/>
+        <path d="M317.867,667.875C368.617,696.096 472.884,708.475 548.086,593.245C592.207,525.641 667.672,449.545 695.64,445.845" style="fill:none;stroke:rgb(21,46,105);stroke-width:14.68px;"/>
+        <g transform="matrix(0.385034,0,0,1.02892,362.524,-20.6866)">
+            <path d="M589.999,715.207L589.503,546.723L589.999,715.207Z" style="fill:none;stroke:rgb(21,46,105);stroke-width:18.9px;"/>
+        </g>
+        <g transform="matrix(1,1.98285e-05,1.98285e-05,1.01296,-0.0140989,-9.21691)">
+            <path d="M661.645,710.03L661.284,474.01" style="fill:none;stroke:rgb(21,46,105);stroke-width:14.59px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,2.42577,0.139218)">
+            <path d="M694.965,717.12L516.417,717.069L694.965,717.12Z" style="fill:none;stroke:rgb(21,46,105);stroke-width:14.68px;"/>
+        </g>
+        <path d="M604.556,517.211L585.713,500.633C579.833,495.585 574.074,489.269 580.497,481.111C580.497,481.111 595.19,464.69 596.409,463.341C597.992,461.591 602.538,462.248 605.819,464.37C609.255,466.592 613.256,468.161 614.634,468.793C615.638,469.253 620.046,466.931 622.365,463.906C626.014,459.146 624.434,452.018 621.826,447.04C621.475,446.37 642.648,429.017 642.648,429.017C645.512,427.937 649.201,427.851 652.873,430.272L674.372,451.524L604.556,517.211Z" style="fill:rgb(255,81,62);stroke:rgb(21,46,105);stroke-width:12.95px;"/>
+    </g>
+    <g id="Noria">
+        <g>
+            <path d="M356.406,250.946C452.115,250.946 529.819,327.317 529.819,421.384C529.819,515.452 452.115,591.823 356.406,591.823C260.697,591.823 182.994,515.452 182.994,421.384C182.994,327.317 260.697,250.946 356.406,250.946ZM356.406,263.6C445.01,263.6 516.944,334.301 516.944,421.384C516.944,508.468 445.01,579.169 356.406,579.169C267.803,579.169 195.868,508.468 195.868,421.384C195.868,334.301 267.803,263.6 356.406,263.6Z" style="fill:rgb(21,46,105);"/>
+        </g>
+        <g>
+            <g id="Noroeste---Azul" serif:id="Noroeste - Azul" transform="matrix(1.38051,0,0,1.15054,-260.673,7.91958)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(21,47,104);"/>
+            </g>
+            <g id="Oeste---Azul" serif:id="Oeste - Azul" transform="matrix(1.38051,0,0,1.15054,-310.211,124.433)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(21,47,104);"/>
+            </g>
+            <g id="Sueroreste--Azul" serif:id="Sueroreste -Azul" transform="matrix(1.38051,0,0,1.15054,-261.108,241.609)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(21,47,104);"/>
+            </g>
+            <g id="Sur---Azul" serif:id="Sur - Azul" transform="matrix(1.38051,0,0,1.15054,-145.788,286.631)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(21,47,104);"/>
+            </g>
+            <g id="SurEste---Azul" serif:id="SurEste - Azul" transform="matrix(1.38051,0,0,1.1681,-29.7971,237.058)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(21,47,104);"/>
+            </g>
+            <g id="Este---Azul" serif:id="Este - Azul" transform="matrix(1.35976,0,0,1.15054,28.5577,124.791)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(21,47,104);"/>
+            </g>
+            <g id="NorEste---Azul" serif:id="NorEste - Azul" transform="matrix(1.38051,0,0,1.15054,-30.5214,8.29429)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(21,47,104);"/>
+            </g>
+            <g id="Norte---Azul" serif:id="Norte  -Azul" transform="matrix(1.38051,0,0,1.15054,-146.672,-37.8923)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(21,47,104);"/>
+            </g>
+        </g>
+        <g transform="matrix(0.96208,0,0,0.96208,13.9354,26.3271)">
+            <path d="M199.845,720.337L482.394,720.947" style="fill:none;stroke:rgb(21,46,105);stroke-width:17.67px;"/>
+        </g>
+        <g transform="matrix(1.02678,-0.00109225,0.00109986,1.03393,-9.90084,-24.5074)">
+            <path d="M354.654,421.601L442.653,719.377L271.789,719.134L354.654,421.601Z" style="fill:none;stroke:rgb(21,46,105);stroke-width:16.5px;"/>
+        </g>
+        <path d="M241.04,537.731L472.31,303.539" style="fill:none;stroke:rgb(21,46,105);stroke-width:17px;"/>
+        <path d="M524.285,420.398L189.57,420.13" style="fill:none;stroke:rgb(21,46,105);stroke-width:17px;"/>
+        <path d="M473.32,538.779L240.895,304.163" style="fill:none;stroke:rgb(21,46,105);stroke-width:17px;"/>
+        <g transform="matrix(0.999758,-0.0219418,0.0115753,0.583944,-4.91846,117.15)">
+            <path d="M356.051,257.647L356.668,585.574" style="fill:none;stroke:rgb(21,46,105);stroke-width:20.78px;"/>
+        </g>
+        <g>
+            <g id="Noroeste---Azul1" serif:id="Noroeste - Azul" transform="matrix(0.803578,0,0,0.669717,-50.8728,132.596)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(255,82,62);"/>
+            </g>
+            <g id="Oeste---Azul1" serif:id="Oeste - Azul" transform="matrix(0.803578,0,0,0.669717,-100.445,248.139)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(255,82,62);"/>
+            </g>
+            <g id="Sueroreste--Azul1" serif:id="Sueroreste -Azul" transform="matrix(0.803578,0,0,0.669717,-51.3432,365.315)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(255,82,62);"/>
+            </g>
+            <g id="Sur---Azul1" serif:id="Sur - Azul" transform="matrix(0.803578,0,0,0.669717,63.9773,410.336)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(255,82,62);"/>
+            </g>
+            <g id="SurEste---Azul1" serif:id="SurEste - Azul" transform="matrix(0.803578,0,0,0.669717,179.968,365.28)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(255,82,62);"/>
+            </g>
+            <g id="Este---Azul1" serif:id="Este - Azul" transform="matrix(0.803578,0,0,0.669717,230.779,248.496)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(255,82,62);"/>
+            </g>
+            <g id="NorEste---Azul1" serif:id="NorEste - Azul" transform="matrix(0.803578,0,0,0.669717,179.244,132)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(255,81,62);"/>
+            </g>
+            <g id="Norte---Azul1" serif:id="Norte  -Azul" transform="matrix(0.803578,0,0,0.669717,62.8272,85.6962)">
+                <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(255,81,62);"/>
+            </g>
+        </g>
+        <g id="Norte---Azul2" serif:id="Norte  -Azul" transform="matrix(1.6709,0,0,1.39256,-251.255,61.8417)">
+            <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(21,47,104);"/>
+        </g>
+        <g id="Norte---Azul3" serif:id="Norte  -Azul" transform="matrix(1.13325,0,0,0.944473,-55.7724,177.124)">
+            <ellipse cx="363.59" cy="257.278" rx="24.266" ry="29.117" style="fill:rgb(57,105,184);"/>
+        </g>
+    </g>
+</svg>
