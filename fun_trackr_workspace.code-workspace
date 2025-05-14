@@ -1,0 +1,93 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true,
+    },
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "dev",
+        "type": "npm",
+        "script": "dev",
+        "group": "build",
+        "options": {
+          "statusbar": {
+            "label": "$(play) Dev",
+            "color": "#4caf50",
+          },
+        },
+      },
+      {
+        "label": "build",
+        "type": "npm",
+        "script": "build",
+        "group": "build",
+        "options": {
+          "statusbar": {
+            "label": "$(gear) Build",
+            "color": "#2196f3",
+          },
+        },
+      },
+      {
+        "label": "start",
+        "type": "npm",
+        "script": "start",
+        "group": "build",
+        "options": {
+          "statusbar": {
+            "label": "$(debug-start) Start",
+            "color": "#673ab7",
+          },
+        },
+      },
+      {
+        "label": "test",
+        "type": "npm",
+        "script": "test",
+        "group": "test",
+        "options": {
+          "statusbar": {
+            "label": "$(beaker) Test",
+            "color": "#f44336",
+          },
+        },
+      },
+      {
+        "label": "lint",
+        "type": "npm",
+        "script": "lint",
+        "group": "test",
+        "options": {
+          "statusbar": {
+            "label": "$(check) Lint",
+            "color": "#ff9800",
+          },
+        },
+      },
+      {
+        "label": "format",
+        "type": "npm",
+        "script": "format",
+        "group": "none",
+        "options": {
+          "statusbar": {
+            "label": "$(paintcan) Format",
+            "color": "#009688",
+          },
+        },
+      },
+    ],
+  },
+}

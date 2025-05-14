@@ -1,0 +1,38 @@
+{
+  "title": "Theme Park Explorer",
+  "welcome": "Welcome to FunTrackr!",
+  "park_list": "List of Parks",
+  "loading": "Loading...",
+  "language": "Language",
+  "info": "Info",
+  "technologies_intro": "This project was built using the following technologies:",
+  "technologies_list": {
+    "next": "Next.js 14 (App Router)",
+    "react": "React 18",
+    "typescript": "TypeScript",
+    "tailwind": "TailwindCSS",
+    "i18next": "i18next for internationalization",
+    "swr": "SWR for reactive data fetching",
+    "recharts": "Recharts for data visualization",
+    "queue_times": "Queue-Times API for theme park data"
+  },
+  "powered_by": "Powered by <1>Queue-Times.com</1>. Please consider sponsoring them on Patreon.",
+  "error_loading_parks": "There was an error loading the parks.",
+  "common": {
+    "min": "min",
+    "max": "max",
+    "closed": "Closed",
+    "all": "All"
+  },
+  "park_detail": {
+    "title": "Attraction Wait Times",
+    "show_zones": "Show zones",
+    "global_wait_config": "Global wait configuration",
+    "attendance_title": "Annual Attendance",
+    "no_attendance_data": "No attendance data available at the moment",
+    "attendance": {
+      "year": "Year",
+      "attendance": "Attendance"
+    }
+  }
+}
