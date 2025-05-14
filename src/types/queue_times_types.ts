@@ -32,3 +32,4 @@ export interface ParkQueueTimesResponse {
   lands: Land[];
   rides: Ride[]; // sometimes flat list, empty in example
 }
+export type AttendanceByYear = Record<string, number>;

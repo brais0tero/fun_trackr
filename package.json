@@ -21,7 +21,8 @@
     "react-dom": "^19.0.0",
     "react-i18next": "^15.5.1",
     "recharts": "^2.15.3",
-    "swr": "^2.3.3"
+    "swr": "^2.3.3",
+    "zustand": "^5.0.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

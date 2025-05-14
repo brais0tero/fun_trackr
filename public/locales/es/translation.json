@@ -17,5 +17,24 @@
     "queue_times": "API de Queue-Times para información de parques"
   },
   "powered_by": "Desarrollado con el apoyo de <1>Queue-Times.com</1>.",
-  "error_loading_parks": "Hubo un error al cargar los parques."
+  "error_loading_parks": "Hubo un error al cargar los parques.",
+  "common": {
+    "min": "mín",
+    "max": "máx",
+    "closed": "Cerrado",
+    "all": "Todas"
+  },
+  "park_detail": {
+    "title": "Tiempo de espera por atracción",
+    "show_zones": "Mostrar zonas",
+    "global_wait_config": "Configuración global de espera",
+    "attendance_title": "Afluencia anual",
+    "no_attendance_data": "Sin datos de afluencia de momento",
+    "attendance": {
+      "year": "Año",
+      "attendance": "Afluencia"
+    },
+    "general_rides": "Atracciones disponibles",
+    "no_rides_available": "No hay atracciones disponibles en este parque."
+  }
 }

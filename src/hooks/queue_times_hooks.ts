@@ -1,9 +1,12 @@
 import useSWR from 'swr';
-import { fetchParks, fetchParkQueueTimes } from '@/fetchers/queque_times_fetcher';
-import { ParkGroup, ParkQueueTimesResponse } from '@/types/queue_times_types';
+import { fetchParks, fetchParkQueueTimes, fetchParkAttendance } from '@/fetchers/queque_times_fetcher';
+import { ParkGroup, ParkQueueTimesResponse, AttendanceByYear } from '@/types/queue_times_types';
 
-export function useParks() {
-  const { data, error, isLoading } = useSWR<ParkGroup[]>('queue_times/parks', fetchParks);
+export function useParks(shouldFetch: boolean = true) {
+  const { data, error, isLoading } = useSWR<ParkGroup[]>(
+    shouldFetch ? 'queue_times/parks' : null,
+    fetchParks
+  );
   return {
     parks: data,
     isLoading,
@@ -18,6 +21,18 @@ export function useParkQueueTimes(parkId: number | null) {
   );
   return {
     queueData: data,
+    isLoading,
+    isError: error,
+  };
+}
+export function useParkAttendance(parkId: number | null) {
+  const { data, error, isLoading } = useSWR<AttendanceByYear>(
+    parkId ? `queue_times/parks/${parkId}/attendance` : null,
+    () => fetchParkAttendance(parkId!)
+  );
+
+  return {
+    attendanceData: data,
     isLoading,
     isError: error,
   };

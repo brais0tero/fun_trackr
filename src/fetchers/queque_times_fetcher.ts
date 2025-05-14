@@ -1,4 +1,4 @@
-import { ParkGroup, ParkQueueTimesResponse } from '@/types/queue_times_types';
+import { ParkGroup, ParkQueueTimesResponse, AttendanceByYear } from '@/types/queue_times_types';
 
 const BASE_URL = 'https://queue-times.com';
 
@@ -13,6 +13,15 @@ export async function fetchParks(): Promise<ParkGroup[]> {
 
 export async function fetchParkQueueTimes(parkId: number): Promise<ParkQueueTimesResponse> {
   const target = encodeURIComponent(`${BASE_URL}/parks/${parkId}/queue_times.json`);
+  const res = await fetch(`/api/parks?url=${target}`);
+  if (!res.ok) {
+    throw new Error(`Failed to fetch queue times for park ${parkId}`);
+  }
+  return res.json();
+}
+
+export async function fetchParkAttendance(parkId: number): Promise<AttendanceByYear> {
+  const target = encodeURIComponent(`${BASE_URL}/parks/${parkId}/attendances/attendance_by_year`);
   const res = await fetch(`/api/parks?url=${target}`);
   if (!res.ok) {
     throw new Error(`Failed to fetch queue times for park ${parkId}`);
